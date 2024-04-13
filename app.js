@@ -550,7 +550,44 @@ const products=[
           "https://cdn.dummyjson.com/product-images/30/3.jpg",
           "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
         ]
-      }
+      },
+      {
+        "id": 31,
+        "title": "Skin Beauty Serum.",
+        "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+        "price": 46,
+        "discountPercentage": 10.68,
+        "rating": 4.42,
+        "stock": 54,
+        "brand": "ROREC White Rice",
+        "category": "skincare",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
+        "images": [
+          "https://cdn.dummyjson.com/product-images/19/1.jpg",
+          "https://cdn.dummyjson.com/product-images/19/2.jpg",
+          "https://cdn.dummyjson.com/product-images/19/3.png",
+          "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Oil Free Moisturizer 100ml",
+        "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+        "price": 40,
+        "discountPercentage": 13.1,
+        "rating": 4.56,
+        "stock": 88,
+        "brand": "Dermive",
+        "category": "skincare",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
+        "images": [
+          "https://cdn.dummyjson.com/product-images/18/1.jpg",
+          "https://cdn.dummyjson.com/product-images/18/2.jpg",
+          "https://cdn.dummyjson.com/product-images/18/3.jpg",
+          "https://cdn.dummyjson.com/product-images/18/4.jpg",
+          "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
+        ]
+      },
     ]
     
   
@@ -572,7 +609,7 @@ products.forEach(item => {
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <h4>${item.price} USD</h4>
+            <h4>${item.price}$</h4>
         </div>
         <i class="fa-solid fa-cart-shopping cart"></i>
     </div>`;
