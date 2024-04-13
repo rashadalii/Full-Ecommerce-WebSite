@@ -614,3 +614,26 @@ products.forEach(item => {
         <i class="fa-solid fa-cart-shopping cart"></i>
     </div>`;
 });
+
+
+const productsEl=document.querySelector(".pro-container1")
+products.forEach(item => {
+    productsEl.innerHTML += `
+    <div class="pro">
+        <img src="${item.thumbnail}" alt="">
+        <div class="des">
+            <span>${item.brand}</span>
+            <h5>${item.description}</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>${item.price}$</h4>
+        </div>
+        <i class="fa-solid fa-cart-shopping cart"></i>
+    </div>`;
+});

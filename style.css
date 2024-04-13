@@ -200,7 +200,7 @@ button.normal {
     text-align: center;
 }
 
-#product1 .pro-container {
+#product1 .pro-container,.pro-container1 {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
